@@ -15,6 +15,10 @@ public class Variables {
         //Char DataType
         char initial = 'C';
         System.out.println(initial);
+
+        //Boolean DataType
+        boolean myBool = false;
+        System.out.println(myBool);
     
     }
 }

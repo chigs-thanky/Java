@@ -27,6 +27,13 @@ class Human extends Animal {
     }
 }
 
+class Lion extends Animal {
+
+    public void animalSound() {
+        System.out.println("The Lion says: Roar Roar!");
+    }
+}
+
 class Polymorphism_Intro {
 
     public static void main(String[] args) {
@@ -34,10 +41,12 @@ class Polymorphism_Intro {
         Animal myPig = new Pig();
         Animal myDog = new Dog();
         Animal myHuman = new Human();
+        Animal myLion = new Lion();
 
         myAnimal.animalSound();
         myPig.animalSound();
         myDog.animalSound();
         myHuman.animalSound();
+        myLion.animalSound();
     }
 }

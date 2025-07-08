@@ -17,11 +17,13 @@ class Intro_Package_API {
         //Enter age and press enter
         System.out.print("Enter the age: ");
         age = myObj.nextInt();
+        // age = myObj.nextLine(); Incorrect datatype, not working
 
         //Enter initial and press enter
         System.out.print("Enter Initial: ");
         initial = myObj.next();
 
+        //Output
         System.out.println("Username is: " + userName);
         System.out.println("Age is: " + age);
         System.out.println("Initial is: " + initial);

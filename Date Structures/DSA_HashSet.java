@@ -11,6 +11,7 @@ public class DSA_HashSet {
         company.add("Dell");
         company.add("Intel");
         company.add("Nvidia");
+        company.add("Samsung");
         System.out.println(company);
     }
 

@@ -12,8 +12,17 @@ public class DSA_ArrayList {
         cars.add("BMW");
         cars.add("Ford");
         cars.add("Mazda");
+        cars.add("Mazda"); //Allows duplicates
         System.out.println(cars);
 
+        /* Notworking, tried  
+        ArrayList<String, String> cars = new ArrayList<String, String>();
+        cars.add("Volvo", "X6");
+        cars.add("BMW" , "X3");
+        cars.add("Ford" , "Mustang");
+        cars.add("Mazda" , "Swaraj");
+        System.out.println(cars);
+         */
         ArrayList<String> teachers = new ArrayList<String>();
         teachers.add("Ram Sir");
         teachers.add("Chirag Sir");

@@ -1,0 +1,49 @@
+// Import the ArrayList class
+
+import java.util.ArrayList;
+
+public class Intro {
+
+    public static void main(String[] args) {
+
+        //ArrayList for "String";
+        ArrayList<String> cars = new ArrayList<String>();
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("Mazda");
+        System.out.println(cars);
+
+        ArrayList<String> teachers = new ArrayList<String>();
+        teachers.add("Ram Sir");
+        teachers.add("Chirag Sir");
+        teachers.add("Kana Sir");
+        teachers.add("Mayur Sir");
+        teachers.add("Vatsal Sir");
+        System.out.println(teachers);
+
+        //ArrayList for "Integer"
+        ArrayList<Integer> birthdates = new ArrayList<Integer>();
+        birthdates.add(45);
+        birthdates.add(26);
+        birthdates.add(13);
+        birthdates.add(74);
+        System.out.println(birthdates);
+
+        //ArrayList for "decimal values"
+        ArrayList<Double> myDecimal = new ArrayList<Double>();
+        myDecimal.add(45.12);
+        myDecimal.add(26.1);
+        myDecimal.add(13.6);
+        myDecimal.add(7.8);
+        System.out.println(myDecimal);
+
+        //ArrayList for "Single Character"
+        ArrayList<Character> myChar = new ArrayList<Character>();
+        myChar.add('A');
+        myChar.add('B');
+        myChar.add('C');
+        myChar.add('D');
+        System.out.println(myChar);
+    }
+}

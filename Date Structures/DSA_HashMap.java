@@ -13,6 +13,8 @@ public class DSA_HashMap {
         capitalCity.put("Canada", "Ontario");
         capitalCity.put("USA", "Washington DC");
         capitalCity.put("Germany", "Berlin");
+        capitalCity.put("England", "London"); //Ignores this line
+        capitalCity.put("UK", "London"); //Allowed because key is different, value is same, so same value is allowed, but same key overrides with previous value.
         System.out.println(capitalCity);
 
         //NOTE: IF YOU WANT OUTPUT BY CODE LINE-BY-LINE, YOU CAN USE "LinkedHashMap" instead of HashMap

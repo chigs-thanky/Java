@@ -21,6 +21,7 @@ public class ArrayList_Sort {
         }
         System.out.println("\n");
 
+        //For Integer numbers
         ArrayList<Integer> Num = new ArrayList<Integer>();
         Num.add(30);
         Num.add(5);

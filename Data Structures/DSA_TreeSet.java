@@ -1,4 +1,4 @@
-// Note: If you to sort strings that inserted in alphabetical order,use TreeSet class
+// Note: If you want to sort strings that inserted in an alphabetical order,use TreeSet class
 
 // import treeSet class
 import java.util.TreeSet;

@@ -4,7 +4,7 @@ import java.util.HashMap; //Import HashMap class
 public class DSA_HashMap_DataTypes {
 
     public static void main(String[] args) {
-        HashMap<String, Integer> people = new HashMap<String, Integer>();
+        HashMap<String, Integer> people = new HashMap<>();
         //Add keys and values (Name-String, Birthdate-Integer)
         people.put("Chirag", 30);
         people.put("Bunny", 17);

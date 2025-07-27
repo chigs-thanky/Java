@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 public class DSA_LinkedHashSet {
 
     public static void main(String[] args) {
-        LinkedHashSet<String> company = new LinkedHashSet<String>();
+        LinkedHashSet<String> company = new LinkedHashSet<>();
         company.add("Microsoft");
         company.add("Samsung");
         company.add("Dell");

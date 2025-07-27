@@ -12,7 +12,7 @@ import java.util.ArrayList; //Import ArrayList class
 public class ArrayList_Methods {
 
     public static void main(String[] args) {
-        ArrayList<String> Teachers = new ArrayList<String>();
+        ArrayList<String> Teachers = new ArrayList<>();
         Teachers.add("Chirag Sir");
         Teachers.add("Mayur Sir");
         Teachers.add("Akshay Sir");

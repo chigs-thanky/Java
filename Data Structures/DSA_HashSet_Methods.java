@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class DSA_HashSet_Methods {
 
     public static void main(String[] args) {
-        HashSet<String> cars = new HashSet<String>();
+        HashSet<String> cars = new HashSet<>();
 
         //Add Elements -> add() method
         cars.add("BMW");

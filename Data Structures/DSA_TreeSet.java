@@ -7,7 +7,7 @@ public class DSA_TreeSet {
 
     public static void main(String[] args) {
         //For Strings (Natual Order)
-        TreeSet<String> names = new TreeSet<String>();
+        TreeSet<String> names = new TreeSet<>();
         names.add("Dipak");
         names.add("Chirag");
         names.add("Vishal");
@@ -22,7 +22,7 @@ public class DSA_TreeSet {
         }
 
         //For numbers (Natural Order)
-        TreeSet<Integer> myNum = new TreeSet<Integer>();
+        TreeSet<Integer> myNum = new TreeSet<>();
         myNum.add(12);
         myNum.add(29);
         myNum.add(37);
@@ -33,5 +33,19 @@ public class DSA_TreeSet {
         for (int i : myNum) {
             System.out.println(i);
         }
+
+        //For floating numbers (Natural Order)
+        TreeSet<Double> decimal = new TreeSet<>();
+        decimal.add(3.14);
+        decimal.add(1.9);
+        decimal.add(7.4);
+        decimal.add(2.5);
+        System.out.println(decimal);
+
+        //Loop through a TreeSet
+        for (double d : decimal) {
+            System.out.println(d);
+        }
+
     }
 }

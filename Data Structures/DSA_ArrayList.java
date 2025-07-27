@@ -7,7 +7,7 @@ public class DSA_ArrayList {
     public static void main(String[] args) {
 
         //ArrayList for "String";
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
@@ -23,7 +23,7 @@ public class DSA_ArrayList {
         cars.add("Mazda" , "Swaraj");
         System.out.println(cars);
          */
-        ArrayList<String> teachers = new ArrayList<String>();
+        ArrayList<String> teachers = new ArrayList<>();
         teachers.add("Ram Sir");
         teachers.add("Chirag Sir");
         teachers.add("Kana Sir");
@@ -32,7 +32,7 @@ public class DSA_ArrayList {
         System.out.println(teachers);
 
         //ArrayList for "Integers values"
-        ArrayList<Integer> birthdates = new ArrayList<Integer>();
+        ArrayList<Integer> birthdates = new ArrayList<>();
         birthdates.add(45);
         birthdates.add(26);
         birthdates.add(13);
@@ -40,7 +40,7 @@ public class DSA_ArrayList {
         System.out.println(birthdates);
 
         //ArrayList for "decimal values"
-        ArrayList<Double> myDecimal = new ArrayList<Double>();
+        ArrayList<Double> myDecimal = new ArrayList<>();
         myDecimal.add(45.12);
         myDecimal.add(26.1);
         myDecimal.add(13.6);
@@ -48,7 +48,7 @@ public class DSA_ArrayList {
         System.out.println(myDecimal);
 
         //ArrayList for "Single Character"
-        ArrayList<Character> myChar = new ArrayList<Character>();
+        ArrayList<Character> myChar = new ArrayList<>();
         myChar.add('A');
         myChar.add('B');
         myChar.add('C');

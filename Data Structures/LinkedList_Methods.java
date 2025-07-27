@@ -4,7 +4,7 @@ import java.util.LinkedList; //Import LinkedList Class
 public class LinkedList_Methods {
 
     public static void main(String[] args) {
-        LinkedList<String> cars = new LinkedList<String>();
+        LinkedList<String> cars = new LinkedList<>();
         cars.add("BMW");
         cars.add("Audi");
         cars.add("Suzuki");

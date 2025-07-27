@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class DSA_HashSet {
 
     public static void main(String[] args) {
-        HashSet<String> company = new HashSet<String>();
+        HashSet<String> company = new HashSet<>();
         company.add("Microsoft");
         company.add("Samsung");
         company.add("Dell");

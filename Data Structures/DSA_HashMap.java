@@ -5,7 +5,7 @@ public class DSA_HashMap {
 
     public static void main(String[] args) {
         //Create a HashMap object called capitalCity
-        HashMap<String, String> capitalCity = new HashMap<String, String>();
+        HashMap<String, String> capitalCity = new HashMap<>();
 
         //Add keys and values (Country, Capital)
         capitalCity.put("India", "Delhi");

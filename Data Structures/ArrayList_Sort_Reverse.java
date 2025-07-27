@@ -6,7 +6,7 @@ public class ArrayList_Sort_Reverse {
 
     public static void main(String[] args) {
         //For Strings
-        ArrayList<String> Athlete = new ArrayList<String>();
+        ArrayList<String> Athlete = new ArrayList<>();
         Athlete.add("Virat Kohli");
         Athlete.add("Cristiano Ronaldo");
         Athlete.add("Kylian Mbappe");
@@ -17,7 +17,7 @@ public class ArrayList_Sort_Reverse {
         System.out.println(Athlete);
 
         //For Integer numbers
-        ArrayList<Integer> Num = new ArrayList<Integer>();
+        ArrayList<Integer> Num = new ArrayList<>();
         Num.add(30);
         Num.add(5);
         Num.add(9);

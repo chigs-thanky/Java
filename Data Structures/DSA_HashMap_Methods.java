@@ -5,7 +5,7 @@ public class DSA_HashMap_Methods {
 
     public static void main(String[] args) {
         // create a HashMap object called studentID to combine int and string value
-        HashMap<Integer, String> studentID = new HashMap<Integer, String>();
+        HashMap<Integer, String> studentID = new HashMap<>();
 
         //put() method to add elements
         //Adding keys and values
